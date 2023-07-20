@@ -2,9 +2,9 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import styles from "./Desktop.module.css";
 import Example from "./Popadmin";
-
-import {Link} from 'react-scroll';
-
+//import { NavHashLink as Link } from 'react-router-hash-link';
+import {Link} from 'react-scroll'
+//import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 import Button from "react-bootstrap/Button";
 import { truncatedNormal } from "@tensorflow/tfjs";
 
