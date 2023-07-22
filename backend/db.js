@@ -3,11 +3,12 @@ const dotenv = require("dotenv");
 
 dotenv.config();
 
-
+const MONGO_URL =
+  "mongodb+srv://abhiramtripathipanna:Abhiram1234@cluster0.zzq8rxp.mongodb.net/";
 const DB = () => {
   mongoose.set("strictQuery", false);
 
-  mongoose.connect(process.env.MONGO_URL, {
+  mongoose.connect(MONGO_URL, {
     useNewUrlParser: true,
   });
 
